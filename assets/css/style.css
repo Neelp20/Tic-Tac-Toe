@@ -1,3 +1,38 @@
-body {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: #b0413e;
+}
+
+/* Navbar section */
+.navbar {
+    background-color: #548687;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.container #nav-brand{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.container #nav-brand:hover {
+    color: #97231f;
+}
+#navbar .navbar-brand {
+    font-weight: bold;
+    
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
