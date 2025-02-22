@@ -19,12 +19,12 @@ body {
     
 }
 .instructions {
-    color: black;
+    color: white;
     margin-top: 50px;
     width: 80%;
     border: 3px solid rgb(221, 14, 14);
     background-color: rgb(53, 154, 221);
-    padding: 15px;
+    padding: 3rem;
     text-align: left;  
     border-radius: 15px;
 }
@@ -45,6 +45,7 @@ body {
     color: black;
     background-color: #c8e96f;
     border:1px solid rgb(221, 14, 14);
+    margin: 5px;
 }
 
 .instructions a:hover {
