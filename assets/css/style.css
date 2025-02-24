@@ -54,8 +54,14 @@ body {
 }
 
 /* game area */
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
 .homePage a {
-    font-size: 5vmin;
+    font-size: 8vmin;
     color: #b0413e;
 }
 
