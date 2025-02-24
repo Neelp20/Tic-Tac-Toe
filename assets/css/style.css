@@ -54,21 +54,47 @@ body {
 }
 
 /* game area */
+.homePage a {
+    font-size: 5vmin;
+    color: #b0413e;
+}
+
+.homePage a:hover {
+    color:rgb(53, 154, 221);
+}
+
+#game-logo img {
+    border-radius: 50%; 
+    height: 70px;
+    border:3px solid rgb(221, 14, 14);
+}
 .game {
-    background-color: #548687;
-    /* border: 2px solid black; */
-    height: 90vh;
+    /* background-color: rgb(53, 154, 221); */
+    /* border:3px solid rgb(221, 14, 14); */
+    border-radius: 15px;
+    /* height: 75vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 20px;
    
 }
 
-.game img {
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
+/* #scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+    margin-top: 5px;    
+} */
+
+/* .player2-score {
+    margin-left: 10px;
+} */
+
 .game-board {
 height: 60vmin;
 width: 60vmin;
@@ -78,7 +104,6 @@ justify-content: center;
 align-items: center;
 gap: 1vmin;
 /* border: 2px solid blue; */
-
 }
 
 .box {
@@ -90,4 +115,43 @@ gap: 1vmin;
     border: none;
     font-size: 8vmin;
     color: #b0413e;
+    background-color: rgb(4, 93, 153);
 }
+
+.box:hover {
+    border: 3px solid rgb(221, 14, 14); 
+}
+#restart-btn {
+    color: white;
+    background-color: rgb(53, 154, 221);
+    border:2px solid rgb(221, 14, 14);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#restart-btn:hover {
+    border: 3px solid rgb(221, 14, 14); 
+    
+}
+
+#new-btn {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 3vmin;
+}
+
+.hide {
+    display: none;
+}
+
