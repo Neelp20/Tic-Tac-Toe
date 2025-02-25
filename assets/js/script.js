@@ -33,6 +33,7 @@ boxes.forEach((box) =>{
             box.innerText = "X";
             turnO = true;
         }
+        
         box.disabled = true; //To prevent the same box clicked more than once
 
         checkWinner(); //To check the winner

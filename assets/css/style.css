@@ -154,3 +154,18 @@ gap: 1vmin;
     display: none;
 }
 
+.score-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 14, 14);
+    font-size: 2.5vmin;
+    font-weight: bold;
+
+}
+.tie-result {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
