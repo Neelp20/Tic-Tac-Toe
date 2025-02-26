@@ -23,7 +23,7 @@ body {
     color: white;
     margin-top: 50px;
     width: 80%;
-    border: 3px solid rgb(221, 14, 14);
+    border: 4px solid #fff;
     background-color: rgb(53, 154, 221);
     padding: 3rem;
     text-align: left;  
@@ -45,12 +45,12 @@ body {
 .instructions a {
     color: black;
     background-color: #c8e96f;
-    border:1px solid rgb(221, 14, 14);
+    border:1px solid #fff;
     margin: 5px;
 }
 
 .instructions a:hover {
-    border: 3px solid rgb(221, 14, 14); 
+    border: 3px solid #fff; 
 }
 
 /* game area */
@@ -61,12 +61,12 @@ body {
 }
 
 .homePage a {
-    font-size: 8vmin;
-    color: #b0413e;
+    font-size: 5vmin;
+    color: rgb(53, 154, 221);
 }
 
 .homePage a:hover {
-    color:rgb(53, 154, 221);
+    color:#fff;
 }
 
 #game-logo img {
@@ -82,7 +82,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    
    
 }
 
@@ -104,45 +105,52 @@ gap: 1vmin;
     border-radius: 1rem;
     border: none;
     font-size: 8vmin;
-    color: #b0413e;
+    /* color: #b0413e; */
+    color: yellow;
     background-color: rgb(4, 93, 153);
 }
 
 .box:hover {
-    border: 3px solid rgb(221, 14, 14); 
+    border: 3px solid yellow; 
+    box-shadow: 3px 3px 10px black;
 }
-#restart-btn {
+#reset-btn {
     color: white;
-    background-color: rgb(53, 154, 221);
-    border:2px solid rgb(221, 14, 14);
+    background-color: #000;
+    border:none;
     margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 1rem 2rem;
+    border-radius: 50px;
     font-weight: bold;
 }
 
-#restart-btn:hover {
-    border: 3px solid rgb(221, 14, 14); 
+#reset-btn:hover {
+    border: 3px solid rgb(255, 255, 255); 
+    background: transparent;
+    color: black;
+    box-shadow: 1px 1px 3px rgb(233, 227, 227);
+
     
 }
 
 #newGame-btn {
-    padding: 0.5rem;
-    font-size: 1rem;
-    background-color: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
+    color: white;
+    background-color: #000;
+    border:none;
+    margin: 10px;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-weight: bold;
 }
 
-#reset-btn {
+/* #reset-btn {
     padding: 0.5rem;
     font-size: 1rem;
     background-color: #191913;
     color: #fff;
     border-radius: 1rem;
     border: none;
-}
+} */
 
 #msg {
     color: rgb(221, 14, 14);
@@ -182,23 +190,36 @@ gap: 1vmin;
     font-size: 3vmin;
     color:rgb(53, 154, 221);
     font-weight: bold;
+
 }
 .back-page {
-    margin-top: 15px;
+    margin-top: 3rem;
 }
 .back-page a {
-    color: black;
-    background-color: rgb(53, 154, 221);
+    color: white;
+    background-color: #000;
+    border:none;
+    padding: 1rem 3rem;
+    border-radius: 50px;
     font-weight: bold;
-    /* border:3px solid rgb(221, 14, 14); */
-    padding: 10px;
-    font-size: 3vmin;
     text-decoration: none;
-    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    
 }
 
 .back-page a:hover {
-    border: 3px solid rgb(221, 14, 14);
+    border: 4px solid #fff;
+    background-color: transparent;
+    color: black;
+
     
+}
+
+.error-heading {
+    font-size: 10rem;
+}
+
+.error-page h2 {
+    margin-bottom: 3rem;
 }
 
