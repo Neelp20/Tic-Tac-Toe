@@ -162,9 +162,9 @@ gap: 1vmin;
     color: rgb(221, 14, 14);
     font-size: 2.5vmin;
     font-weight: bold;
-
 }
-.tie-result {
+
+.draw-result {
     margin-left: 20px;
     margin-right: 20px;
 }

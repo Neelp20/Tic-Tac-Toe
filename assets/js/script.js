@@ -3,9 +3,17 @@ let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#newGame-btn");
 let winContainer = document.querySelector(".win-container");
+let scoreBoard = document.querySelector(".score-board");
 let msg = document.querySelector("#msg");
+let playerXScore = document.querySelector("#playerX");
+let playerOScore = document.querySelector("#playerO");
+let tieScore = document.querySelector("#tie");
 
 let turnO = true; //playerX, playerO
+let scoreX = 0;
+let scoreO = 0;
+let ties = 0;
+
 
 const winPatterns = [
     [0, 1, 2],
@@ -22,6 +30,7 @@ const resetGame = () => {
     turnO = true;
     enableBoxes();
     winContainer.classList.add("hide");
+    scoreBoard.classList.add("hide");
 }
 
 boxes.forEach((box) =>{
@@ -54,10 +63,23 @@ const enableBoxes = () => {
 }
 
 const showWinner = (winner) => {
+    if (winner === "X") {
+        scoreX++;
+        playerXScore.textContent = scoreX;
+    } else if (winner === "O") {
+        scoreO++;
+        playerOScore.textContent = scoreO;
+
+    }
     msg.innerText = `Congratulations, Winner is ${winner}`;
     winContainer.classList.remove("hide");
+    scoreBoard.classList.remove("hide")
     disableBoxes();
 };
+
+const checkTie = () => {
+    return [...boxes].every(box => box.innerText !== "");
+}
 
 const checkWinner = () => {
     for (let pattern of winPatterns) {
@@ -68,11 +90,29 @@ const checkWinner = () => {
         if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
                 showWinner(pos1Val);
+                return;
             }
         }
+    }
+
+    if (checkTie()) {
+        ties++;
+        tieScore.textContent = ties;
+        msg.innerText = "It's a Draw!";
+        winContainer.classList.remove("hide");
+        scoreBoard.classList.remove("hide");
+        disableBoxes();
     }
 };
 
 newGameBtn.addEventListener("click", resetGame);
-resetBtn.addEventListener("click", resetGame)
+resetBtn.addEventListener("click", () => {
+    scoreX = 0;
+    scoreO = 0;
+    ties = 0;
+    playerXScore.textContent = scoreX;
+    playerOScore.textContent = scoreO;
+    tieScore.textContent = ties;
+    resetGame();
+})
 
