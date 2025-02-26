@@ -169,3 +169,36 @@ gap: 1vmin;
     margin-right: 20px;
 }
 
+/* 404 page */
+
+.error-page {
+    color: rgb(221, 14, 14);
+   /* border:3px solid rgb(221, 14, 14); */
+   padding: 30px;
+   margin: 30vmin;
+}
+
+.error-page p {
+    font-size: 3vmin;
+    color:rgb(53, 154, 221);
+    font-weight: bold;
+}
+.back-page {
+    margin-top: 15px;
+}
+.back-page a {
+    color: black;
+    background-color: rgb(53, 154, 221);
+    font-weight: bold;
+    /* border:3px solid rgb(221, 14, 14); */
+    padding: 10px;
+    font-size: 3vmin;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.back-page a:hover {
+    border: 3px solid rgb(221, 14, 14);
+    
+}
+
