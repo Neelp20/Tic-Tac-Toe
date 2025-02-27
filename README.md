@@ -44,4 +44,14 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * User will be able to click on them to play the game.
 
 ![Gameboard](/assets/readme-images/gameboard-screenshot.png)
+* Reset Game Button
+   * "Reset Game" will reset the game board and score board.
+   
+![Reset Game](/assets/readme-images/resetgame-screenshot.png)
+* New Game Button
+   * "New Game" will clear the board, but keep the score on scoreboard.
+
+![New Game](/assets/readme-images/newgame-screenshot.png)
+
+
 
