@@ -59,6 +59,10 @@ body {
 .header-section {
     display: flex;
     justify-content: space-between;
+    padding: 1rem 10rem;
+    background-color: #ffffff50;
+    align-items: center;
+    border-radius: 30px;
 }
 
 .homePage a {
@@ -70,9 +74,12 @@ body {
     color:#fff;
     
 }
+main {
+    margin-top: 1rem;
+}
 
 #game-logo img {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     border-radius: 50%; 
     height: 60px;
     border:3px solid rgb(221, 14, 14);
@@ -85,12 +92,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    
-   
+     
 }
 
 .game-board {
-height: 60vmin;
+height: 55vmin;
 width: 60vmin;
 display: flex;
 flex-wrap: wrap;
