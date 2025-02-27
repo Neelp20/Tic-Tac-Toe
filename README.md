@@ -20,5 +20,11 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * This will be helpful for the user to identify the website easily if they have multiple tabs open.
 
 ![Favicon](/assets/readme-images/favicon-screenshot.png)
+* 404 Page
+   * A 404 page will be implemented and will be displayed if a user navigates to a broken link.
+   * The 404 page will allow the user to easily navigate back to the main website, without the need of the browsers back button.
+
+![404 Page](/assets/readme-images/404-screenshot.png)
+
 
 
