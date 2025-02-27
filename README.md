@@ -25,6 +25,10 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * The 404 page will allow the user to easily navigate back to the main website, without the need of the browsers back button.
 
 ![404 Page](/assets/readme-images/404-screenshot.png)
+* Game Start Button
+   * A button will be on the home page that when clicked will direct the user to the main game page.
+   * This will allow the user to start the game after they have read the instructions to play.
 
+![Game Start Button](/assets/readme-images/offline-screenshot.png)
 
 
