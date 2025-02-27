@@ -22,11 +22,11 @@ body {
 }
 .instructions {
     color: white;
-    margin-top: 50px;
-    width: 80%;
+    margin-top: 10px;
+    width: 100%;
     border: 4px solid #fff;
     background-color: rgb(53, 154, 221);
-    padding: 3rem;
+    padding: 1.5rem;
     text-align: left;  
     border-radius: 15px;
 }
