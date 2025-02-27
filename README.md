@@ -59,15 +59,29 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
  * Once the boxes are clicked, can not be changed back.
  * When someone gets three in a row, the board will be locked until "Reset Game" or "New Game" is clicked.
 
-### When player X wins the game.
+ ### Winning Conditions
+In this game with nine boxes, there are eight winning conditions.
+* [ 0, 1, 2 ]
+* [ 0, 3, 6 ]
+* [ 0, 4, 8 ]
+* [ 1, 4, 7 ]
+* [ 2, 5, 8 ]
+* [ 2, 4, 6 ]
+* [ 3, 4, 5 ]
+* [ 6, 7, 8 ]
+
+### Example of three scenarios
+* When player X wins the game.
 
 ![Player X is winner](/assets/readme-images/winnerX-screenshot.png)
-### When player O wins the game.
+* When player O wins the game.
 
 ![Player O wins is winner](/assets/readme-images/winnerO-screenshot.png)
-### When its a Draw.
+* When its a Draw.
 
 ![It's a draw](/assets/readme-images/draw-screenshot.png)
+
+
 
 
 
