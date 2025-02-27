@@ -14,7 +14,7 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * contains two buttons for Online and Offline mode.
    * This will allow users to easily navigate between the pages within the site on any device size.
 
-   ![Full view](/assets/readme-images/instructionPage.png)
+   ![Full view](/assets/readme-images/instructions-screenshot.png)
 * Favicon
    * A site wide favicon will be implemented with a tic tac toe logo.
    * This will be helpful for the user to identify the website easily if they have multiple tabs open.
@@ -30,5 +30,8 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * This will allow the user to start the game after they have read the instructions to play.
 
 ![Game Start Button](/assets/readme-images/offline-screenshot.png)
+* Navbar
+   * Contains link to the Instruction page and will be responsive on all devices.
 
+![Navbar](/assets/readme-images/nav-screenshot.png)
 
