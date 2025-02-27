@@ -8,6 +8,7 @@ body {
     background-color: #c8e96f;
     color: #f2fd7d;
     text-align: center;
+   
 
 }
 
@@ -67,12 +68,13 @@ body {
 
 .homePage a:hover {
     color:#fff;
+    
 }
 
 #game-logo img {
     margin-top: 5px;
     border-radius: 50%; 
-    height: 70px;
+    height: 60px;
     border:3px solid rgb(221, 14, 14);
 }
 
