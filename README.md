@@ -4,7 +4,7 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
 
 <!-- ![Mock Up]() -->
 
-[Tic Tac Toe Live Link](https://github.com/Neelp20/Tic-Tac-Toe)
+[Tic Tac Toe Live Link](https://neelp20.github.io/Tic-Tac-Toe/)
 
 ## Features
 
