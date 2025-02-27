@@ -39,4 +39,9 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * Contains "New Game" button for the user to continue the game.
 
 ![Scoreboard](/assets/readme-images/scoreboard-screenshot.png)
+* Game Board
+   * A nine boxes will be blank when the page is loaded.
+   * User will be able to click on them to play the game.
+
+![Gameboard](/assets/readme-images/gameboard-screenshot.png)
 
