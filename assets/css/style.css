@@ -139,12 +139,25 @@ gap: 1vmin;
     border: 3px solid rgb(255, 255, 255); 
     background: transparent;
     color: black;
-    box-shadow: 1px 1px 3px rgb(233, 227, 227);
-
-    
+    box-shadow: 1px 1px 3px rgb(233, 227, 227);   
 }
 
+label { 
+    color: black;
+    
+}
 #newGame-btn {
+    color: white;
+    background-color: #000;
+    border:none;
+    margin: 10px;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+#move-sound {
     color: white;
     background-color: #000;
     border:none;

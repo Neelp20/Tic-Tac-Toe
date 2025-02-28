@@ -8,6 +8,8 @@ let msg = document.querySelector("#msg");
 let playerXScore = document.querySelector("#playerX");
 let playerOScore = document.querySelector("#playerO");
 let tieScore = document.querySelector("#tie");
+let soundToggle = document.getElementById('sound-toggle');
+let moveSound = document.getElementById('move-sound');
 let canvas = document.querySelector('#confetti');
 
 const jsConfetti = new JSConfetti();
@@ -39,6 +41,7 @@ const resetGame = () => {
 
 boxes.forEach((box) =>{
     box.addEventListener("click", () => {
+        if (soundToggle.checked) moveSound.play();
         if (turnO) {  //playerO
             box.innerText = "O";
             turnO = false;    
