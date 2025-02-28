@@ -8,8 +8,11 @@ let msg = document.querySelector("#msg");
 let playerXScore = document.querySelector("#playerX");
 let playerOScore = document.querySelector("#playerO");
 let tieScore = document.querySelector("#tie");
+let canvas = document.querySelector('#confetti');
 
-let turnO = true; //playerX, playerO
+const jsConfetti = new JSConfetti();
+
+let turnO = true; //playerX
 let scoreX = 0;
 let scoreO = 0;
 let ties = 0;
@@ -75,6 +78,9 @@ const showWinner = (winner) => {
     winContainer.classList.remove("hide");
     scoreBoard.classList.remove("hide")
     disableBoxes();
+    // confetti
+    jsConfetti.addConfetti()
+    
 };
 
 const checkTie = () => {
