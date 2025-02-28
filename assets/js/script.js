@@ -12,6 +12,7 @@ let canvas = document.querySelector('#confetti');
 
 const jsConfetti = new JSConfetti();
 
+
 let turnO = true; //playerX
 let scoreX = 0;
 let scoreO = 0;
@@ -74,7 +75,7 @@ const showWinner = (winner) => {
         playerOScore.textContent = scoreO;
 
     }
-    msg.innerText = `Congratulations, Winner is ${winner}`;
+    msg.innerText = `Winner is ${winner}`;
     winContainer.classList.remove("hide");
     scoreBoard.classList.remove("hide")
     disableBoxes();

@@ -48,6 +48,9 @@ body {
     background-color: #c8e96f;
     border:1px solid #fff;
     margin: 5px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
 }
 
 .instructions a:hover {
@@ -211,16 +214,13 @@ gap: 1vmin;
     border-radius: 50px;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;   
 }
 
 .back-page a:hover {
     border: 4px solid #fff;
     background-color: transparent;
-    color: black;
-
-    
+    color: black;   
 }
 
 .error-heading {
@@ -229,5 +229,10 @@ gap: 1vmin;
 
 .error-page h2 {
     margin-bottom: 3rem;
+}
+
+/* confetti */
+#confetti {
+    height: 0;
 }
 
