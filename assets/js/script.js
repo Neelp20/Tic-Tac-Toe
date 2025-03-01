@@ -1,18 +1,37 @@
-
-let boxes = document.querySelectorAll(".box");
-let resetBtn = document.querySelector("#reset-btn");
-let newGameBtn = document.querySelector("#newGame-btn");
 let winContainer = document.querySelector(".win-container");
-let scoreBoard = document.querySelector(".score-board");
 let msg = document.querySelector("#msg");
+let newGameBtn = document.querySelector("#newGame-btn");
+let scoreBoard = document.querySelector(".score-board");
 let playerXScore = document.querySelector("#playerX");
 let playerOScore = document.querySelector("#playerO");
 let tieScore = document.querySelector("#tie");
+let boxes = document.querySelectorAll(".box");
 let soundToggle = document.getElementById('sound-toggle');
 let moveSound = document.getElementById('move-sound');
+let sadSound = document.getElementById('sad-sound');
+let resetBtn = document.getElementById('reset-btn');
 let canvas = document.querySelector('#confetti');
-
 const jsConfetti = new JSConfetti();
+
+
+
+
+// let boxes = document.querySelectorAll(".box");
+// let resetBtn = document.querySelector("#reset-btn");
+// let resetBtn = document.getElementById('reset-btn');
+
+// let newGameBtn = document.querySelector("#newGame-btn");
+// let newGameBtn = document.getElementById('newGame-btn');
+// let winContainer = document.querySelector(".win-container");
+// let scoreBoard = document.querySelector(".score-board");
+// let msg = document.querySelector("#msg");
+// let playerXScore = document.querySelector("#playerX");
+// let playerOScore = document.querySelector("#playerO");
+// let tieScore = document.querySelector("#tie");
+// let soundToggle = document.getElementById('sound-toggle');
+// let moveSound = document.getElementById('move-sound');
+// let canvas = document.querySelector('#confetti');
+// const jsConfetti = new JSConfetti();
 
 
 let turnO = true; //playerX
@@ -36,7 +55,7 @@ const resetGame = () => {
     turnO = true;
     enableBoxes();
     winContainer.classList.add("hide");
-    scoreBoard.classList.add("hide");
+    // scoreBoard.classList.add("hide");
 }
 
 boxes.forEach((box) =>{
@@ -80,7 +99,7 @@ const showWinner = (winner) => {
     }
     msg.innerText = `Winner is ${winner}`;
     winContainer.classList.remove("hide");
-    scoreBoard.classList.remove("hide")
+    // scoreBoard.classList.remove("hide")
     disableBoxes();
     // confetti
     jsConfetti.addConfetti()
@@ -106,11 +125,12 @@ const checkWinner = () => {
     }
 
     if (checkTie()) {
+        if (soundToggle.checked) sadSound.play();
         ties++;
         tieScore.textContent = ties;
         msg.innerText = "It's a Draw!";
         winContainer.classList.remove("hide");
-        scoreBoard.classList.remove("hide");
+        // scoreBoard.classList.remove("hide");
         disableBoxes();
     }
 };
