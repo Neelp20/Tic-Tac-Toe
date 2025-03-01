@@ -97,12 +97,16 @@ const showWinner = (winner) => {
         playerOScore.textContent = scoreO;
 
     }
-    msg.innerText = `Winner is ${winner}`;
+    // msg.innerText = `Winner is ${winner}`;
     winContainer.classList.remove("hide");
     // scoreBoard.classList.remove("hide")
     disableBoxes();
     // confetti
     jsConfetti.addConfetti()
+    // alert("game over");
+    setTimeout(() => {
+        alert(`Winner is ${winner}`);
+    },1000)
     
 };
 
@@ -128,7 +132,10 @@ const checkWinner = () => {
         if (soundToggle.checked) sadSound.play();
         ties++;
         tieScore.textContent = ties;
-        msg.innerText = "It's a Draw!";
+        // msg.innerText = "It's a Draw!";
+        setTimeout(() => {
+            alert("It's a Draw!");
+        },1000)
         winContainer.classList.remove("hide");
         // scoreBoard.classList.remove("hide");
         disableBoxes();

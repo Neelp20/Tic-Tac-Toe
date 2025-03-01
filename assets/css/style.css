@@ -4,7 +4,6 @@
 }
 
 body {
-    /* background-color: #ca605c; */
     background-color: #c8e96f;
     color: #f2fd7d;
     text-align: center;
@@ -57,12 +56,13 @@ body {
     border: 3px solid #fff; 
 }
 
-/* game area */
+
+/* game page */
 
 .header-section {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 8rem;
+    padding: 1rem 8rem 0;
     background-color: #ffffff50;
     align-items: center;
     border-radius: 30px;
@@ -77,12 +77,11 @@ body {
     color:#fff;
     
 }
-main {
+/* main {
     margin-top: 1rem;
-}
+} */
 
 #game-logo img {
-    /* margin-top: 5px; */
     border-radius: 50%; 
     height: 60px;
     border:3px solid rgb(221, 14, 14);
@@ -94,8 +93,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-     
+    padding: 10px;     
 }
 
 .game-board {
@@ -116,7 +114,6 @@ gap: 1vmin;
     border-radius: 1rem;
     border: none;
     font-size: 8vmin;
-    /* color: #b0413e; */
     color: yellow;
     background-color: rgb(4, 93, 153);
 }
@@ -167,15 +164,6 @@ label {
     font-weight: bold;
 }
 
-/* #reset-btn {
-    padding: 0.5rem;
-    font-size: 1rem;
-    background-color: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
-} */
-
 #msg {
     color: rgb(221, 14, 14);
     font-size: 3vmin;
@@ -191,9 +179,23 @@ label {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: rgb(221, 14, 14);
+    color: black;
     font-size: 2.5vmin;
     font-weight: bold;
+    width: 100%;
+}
+.score-board .score {
+    border: 1px dotted;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.score-board p {
+    margin-bottom: 0;
 }
 
 .draw-result {
@@ -205,9 +207,12 @@ label {
 
 .error-page {
     color: rgb(221, 14, 14);
-   /* border:3px solid rgb(221, 14, 14); */
    padding: 30px;
-   margin: 30vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 80vh;
 }
 
 .error-page p {
@@ -216,9 +221,7 @@ label {
     font-weight: bold;
 
 }
-.back-page {
-    margin-top: 3rem;
-}
+
 .back-page a {
     color: white;
     background-color: #000;
