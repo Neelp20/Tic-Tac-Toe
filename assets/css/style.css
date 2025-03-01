@@ -68,6 +68,12 @@ body {
     border-radius: 30px;
 }
 
+#game-logo img {
+    border-radius: 50%; 
+    height: 60px;
+    border:3px solid rgb(221, 14, 14);
+}
+
 .homePage a {
     font-size: 6vmin;
     color: rgb(53, 154, 221);
@@ -77,15 +83,7 @@ body {
     color:#fff;
     
 }
-/* main {
-    margin-top: 1rem;
-} */
 
-#game-logo img {
-    border-radius: 50%; 
-    height: 60px;
-    border:3px solid rgb(221, 14, 14);
-}
 
 .game {
     border-radius: 15px;
@@ -250,5 +248,37 @@ label {
 /* confetti */
 #confetti {
     height: 0;
+}
+
+/* Media queries to make pages responsiveness on different screen sizes */
+@media screen and (min-width:320px) and (max-width:768px) {
+    .header-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        background-color: #ffffff50;
+        align-items: center;
+        border-radius: 30px;
+    }
+    
+    #game-logo img {
+        height: 50px;
+       
+    }
+    .score-board {
+        font-size: 3vmin;
+    }
+    .score-board .score {
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    
+    .game-board {
+    margin-bottom: 10px;
+    }
+    
+    
 }
 
