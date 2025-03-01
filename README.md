@@ -112,9 +112,9 @@ In this game with nine boxes, there are eight winning conditions.
   - Source code is hosted on GitHub and deployed using Git pages.
 - Git
   - Used to commit and push code during the development of the website.
--  Favicon.io
+- Favicon.io
   - Favicon files were created at https://favicon.io/favicon-converter/
--  balsamiq
+- balsamiq
   - Wireframes were craeted using balsamiq from https://balsamiq.com/wireframes/desktop/#
   
    
