@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-Tic Tac Toe is a Javascript game built to allow users to play Online(vs. computer) and offline(two players) for fun. It was designed to be simple and entertaining for two players.
+Tic Tac Toe is a Javascript game built to allow users to play offline(two players) for fun. It was designed to be simple and entertaining for two players.
 
 <!-- ![Mock Up]() -->
 
@@ -14,44 +14,44 @@ Tic Tac Toe is a Javascript game built to allow users to play Online(vs. compute
    * contains two buttons for Online and Offline mode.
    * This will allow users to easily navigate between the pages within the site on any device size.
 
-   ![Full view](/assets/readme-images/instructions-screenshot.png)
+   ![Full view](/docs/readme-images/instruction-page.png)
 * Favicon
    * A site wide favicon will be implemented with a tic tac toe logo.
    * This will be helpful for the user to identify the website easily if they have multiple tabs open.
 
-![Favicon](/assets/readme-images/favicon-screenshot.png)
+![Favicon](/docs/readme-images/favicon-screenshot.png)
 * 404 Page
    * A 404 page will be implemented and will be displayed if a user navigates to a broken link.
    * The 404 page will allow the user to easily navigate back to the main website, without the need of the browsers back button.
 
-![404 Page](/assets/readme-images/404-screenshot.png)
+![404 Page](/docs/readme-images/404-screenshot.png)
 * Game Start Button
    * A button will be on the home page that when clicked will direct the user to the main game page.
    * This will allow the user to start the game after they have read the instructions to play.
 
-![Game Start Button](/assets/readme-images/offline-screenshot.png)
+![Game Start Button](/docs/readme-images/start-game.png)
 * Navbar
    * Contains link to the Instruction page and will be responsive on all devices.
 
-![Navbar](/assets/readme-images/nav-screenshot.png)
+![Navbar](/docs/readme-images/nav-screenshot.png)
 * Scoreboard
    * Above the game board, scoreboard will be displayed to show the score/draw. It will be hidden and pop up once the player gets three in a row or draw.
    * Contains "New Game" button for the user to continue the game.
 
-![Scoreboard](/assets/readme-images/scoreboard-screenshot.png)
+![Scoreboard](/docs/readme-images/scoreboard-screenshot.png)
 * Game Board
    * A nine boxes will be blank when the page is loaded.
    * User will be able to click on them to play the game.
 
-![Gameboard](/assets/readme-images/gameboard-screenshot.png)
+![Gameboard](/docs/readme-images/gameboard-screenshot.png)
 * Reset Game Button
    * "Reset Game" will reset the game board and score board.
    
-![Reset Game](/assets/readme-images/resetgame-screenshot.png)
+![Reset Game](/docs/readme-images/resetgame-screenshot.png)
 * New Game Button
    * "New Game" will clear the board, but keep the score on scoreboard.
 
-![New Game](/assets/readme-images/newgame-screenshot.png)
+![New Game](/docs/readme-images/newgame-screenshot.png)
 
 ## The Game
  * The game starts with blank boxes, and always player X begins the game.
@@ -73,13 +73,31 @@ In this game with nine boxes, there are eight winning conditions.
 ### Example of three scenarios
 * When player X wins the game.
 
-![Player X is winner](/assets/readme-images/winnerX-screenshot.png)
+![Player X is winner](/docs/readme-images/winnerX-screenshot.png)
 * When player O wins the game.
 
-![Player O wins is winner](/assets/readme-images/winnerO-screenshot.png)
+![Player O wins is winner](/docs/readme-images/winnerO-screenshot.png)
 * When its a Draw.
 
-![It's a draw](/assets/readme-images/draw-screenshot.png)
+![It's a draw](/docs/readme-images/draw-screenshot.png)
+
+### Features left to implement
+   * Add functionality to play the game against computer.
+
+## Wireframes
+
+- Home Page
+
+![Home page wireframe](/docs/wireframes/home-wireframe.png)
+
+- Game Page
+
+![Game page wireframe](/docs/wireframes/game-wireframe.png)
+
+- 404 Page
+
+![404 page wireframe](/docs/wireframes/404-wireframe.png)
+   
 
 
 
