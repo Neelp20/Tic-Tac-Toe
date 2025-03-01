@@ -97,6 +97,26 @@ In this game with nine boxes, there are eight winning conditions.
 - 404 Page
 
 ![404 page wireframe](/docs/wireframes/404-wireframe.png)
+
+## Technologies
+
+- HTML
+  - The structure of the website was developed using HTML as the main language.
+- CSS
+  - The website was styled using custom CSS in an external file.
+- Javascript
+  - The game play logic was created using Javascript in an external file.
+- Visual Studio Code
+  - The website was developed using Visual Studio Code IDE.
+- GitHub
+  - Source code is hosted on GitHub and deployed using Git pages.
+- Git
+  - Used to commit and push code during the development of the website.
+-  Favicon.io
+  - Favicon files were created at https://favicon.io/favicon-converter/
+-  balsamiq
+  - Wireframes were craeted using balsamiq from https://balsamiq.com/wireframes/desktop/#
+  
    
 
 
