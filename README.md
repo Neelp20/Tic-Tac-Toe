@@ -119,7 +119,30 @@ In this game with nine boxes, there are eight winning conditions.
 - Font Awesome
   - Icon obtained from https://fontawesome.com/ was used for Home icon on Game page header.
   
-   
+
+## Testing
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined.
+
+Steps to test:
+
+1. Open browser and navigate to [Tic Tac Toe](https://neelp20.github.io/Tic-Tac-Toe/)
+2. Open the developer tools (right click and inspect)
+3. Set the responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website behaved as expected.
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+- iphone SE
+- pixel 7
+- Galaxy Z Fold 5
 
 
 
