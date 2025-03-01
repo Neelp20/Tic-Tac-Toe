@@ -116,6 +116,8 @@ In this game with nine boxes, there are eight winning conditions.
   - Favicon files were created at https://favicon.io/favicon-converter/
 - balsamiq
   - Wireframes were craeted using balsamiq from https://balsamiq.com/wireframes/desktop/#
+- Font Awesome
+  - Icon obtained from https://fontawesome.com/ was used for Home icon on Game page header.
   
    
 
