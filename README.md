@@ -14,7 +14,7 @@ Tic Tac Toe is a Javascript game built to allow users to play offline(two player
    * contains two buttons for Online and Offline mode.
    * This will allow users to easily navigate between the pages within the site on any device size.
 
-   ![Full view](/docs/readme-images/instruction-page.png)
+   ![Full view](/docs/readme-images/home-screenshot.png)
 * Favicon
    * A site wide favicon will be implemented with a tic tac toe logo.
    * This will be helpful for the user to identify the website easily if they have multiple tabs open.
@@ -158,7 +158,7 @@ All messages were displayed as expected.
 
 **Lighthouse Report**
 
-![Lighthouse report](/docs/readme-images/homepage-lighthouse.png)
+![Lighthouse report](/docs/readme-images/home-lighthouse.png)
 
 ![Lighthouse report](/docs/readme-images/gamepage-lighthouse.png)
 
