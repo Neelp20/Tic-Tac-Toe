@@ -156,6 +156,14 @@ Testing was done to ensure the correct messages were displayed at the appropriat
 
 All messages were displayed as expected.
 
+**Lighthouse Report**
+
+![Lighthouse report](/docs/readme-images/homepage-lighthouse.png)
+
+![Lighthouse report](/docs/readme-images/gamepage-lighthouse.png)
+
+![Lighthouse report](/docs/readme-images/404-lighthouse.png)
+
 
 ## Deployment
 
