@@ -105,7 +105,7 @@ const showWinner = (winner) => {
     jsConfetti.addConfetti()
     // alert("game over");
     setTimeout(() => {
-        alert(`Winner is ${winner}`);
+        alert(`Congratulations, Winner is ${winner}`);
     },1000)
     
 };

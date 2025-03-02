@@ -144,6 +144,18 @@ Website was also opened on the following devices and no responsive issues were s
 - pixel 7
 - Galaxy Z Fold 5
 
+<!-- ### Accessibility -->
+
+<!-- **Game Board**
+
+Testing was done to ensure the correct messages were displayed at the appropriate time by playing the game. The following messages are displayed:
+
+* Winner is O.
+* Winner is X.
+* It's a draw.
+
+All messages were displayed as expected. -->
+
 
 
 
