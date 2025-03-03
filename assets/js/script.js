@@ -1,8 +1,7 @@
 let hideBtn = document.querySelector(".hide-btn");
 let newGameBtn = document.querySelector("#newGame-btn");
-let scoreBoard = document.querySelector(".score-board");
-let playerXScore = document.querySelector("#playerX");
 let playerOScore = document.querySelector("#playerO");
+let playerXScore = document.querySelector("#playerX");
 let tieScore = document.querySelector("#tie");
 let boxes = document.querySelectorAll(".box");
 let soundToggle = document.getElementById('sound-toggle');
@@ -32,7 +31,7 @@ const resetGame = () => {
     turnO = true;
     enableBoxes();
     hideBtn.classList.add("hide");
-}
+};
 
 boxes.forEach((box) =>{
     box.addEventListener("click", () => {
@@ -55,14 +54,14 @@ const disableBoxes = () => {
     for (let box of boxes) {
         box.disabled = true;
     }
-}
+};
 
 const enableBoxes = () => {
     for (let box of boxes) {
         box.disabled = false;
         box.innerText = "";
     }
-}
+};
 
 const showWinner = (winner) => {
     if (winner === "X") {
@@ -86,7 +85,7 @@ const showWinner = (winner) => {
 
 const checkTie = () => {
     return [...boxes].every(box => box.innerText !== "");
-}
+};
 
 const checkWinner = () => {
     for (let pattern of winPatterns) {
@@ -125,5 +124,5 @@ resetBtn.addEventListener("click", () => {
     playerOScore.textContent = scoreO;
     tieScore.textContent = ties;
     resetGame();
-})
+});
 
