@@ -11,7 +11,7 @@ Tic Tac Toe is a Javascript game built to allow users to play offline(two player
 #### Landing Page
 * The first page gives the instructions to play the game:
 
-   * contains two buttons for Online and Offline mode.
+   * A link will be on home page that when clicked will direct the user to the Game page.
    * This will allow users to easily navigate between the pages within the site on any device size.
 
    ![Full view](/docs/readme-images/home-screenshot.png)
@@ -88,11 +88,11 @@ In this game with nine boxes, there are eight winning conditions.
 
 - Home Page
 
-![Home page wireframe](/docs/wireframes/home-wireframe.png)
+![Home page wireframe]()
 
 - Game Page
 
-![Game page wireframe](/docs/wireframes/game-wireframe.png)
+![Game page wireframe]()
 
 - 404 Page
 
@@ -156,6 +156,27 @@ Testing was done to ensure the correct messages were displayed at the appropriat
 
 All messages were displayed as expected.
 
+<!-- **Validator Testing**
+
+- HTML
+ - [W3C validator](https://validator.w3.org)
+
+![Home Page]()
+
+![Game Page]()
+
+![404 Page]()
+
+- CSS
+ - [Jigsaw validator]()
+
+![CSS Validator Results]()
+
+- Javascript
+ - [Jshint validator]()
+
+![Javascript Validator Results]() -->
+
 **Lighthouse Report**
 
 ![Lighthouse report](/docs/readme-images/home-lighthouse.png)
@@ -201,6 +222,12 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - Type git clone copied-git-url into the IDE terminal
 
 The project will now have been cloned on your local machine for use.
+
+## Credits
+
+* [For Confetti](https://www.npmjs.com/package/js-confetti).
+* Website logo was downloaded from google.
+* My Mentor Gareth McGirr for his guidance and support throughout my project.
 
 
 

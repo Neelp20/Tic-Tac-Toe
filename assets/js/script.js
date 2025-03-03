@@ -85,8 +85,7 @@ const showWinner = (winner) => {
     // alert("game over");
     setTimeout(() => {
         alert(`Congratulations, Winner is ${winner}`);
-    },1000)
-    
+    },1000)   
 };
 
 const checkTie = () => {
