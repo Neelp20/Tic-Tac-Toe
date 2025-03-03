@@ -6,11 +6,11 @@ let playerXScore = document.querySelector("#playerX");
 let playerOScore = document.querySelector("#playerO");
 let tieScore = document.querySelector("#tie");
 let boxes = document.querySelectorAll(".box");
-// let soundToggle = document.getElementById('sound-toggle');
-// let moveSound = document.getElementById('move-sound');
-// let sadSound = document.getElementById('sad-sound');
+let soundToggle = document.getElementById('sound-toggle');
+let moveSound = document.getElementById('move-sound');
+let sadSound = document.getElementById('sad-sound');
 let resetBtn = document.getElementById('reset-btn');
-let canvas = document.querySelector('#confetti');
+// let canvas = document.querySelector('#confetti');
 const jsConfetti = new JSConfetti();
 
 let turnO = true; //playerX
@@ -39,7 +39,7 @@ const resetGame = () => {
 
 boxes.forEach((box) =>{
     box.addEventListener("click", () => {
-        // if (soundToggle.checked) moveSound.play();
+        if (soundToggle.checked) moveSound.play();
         if (turnO) {  //playerO
             box.innerText = "O";
             turnO = false;    
@@ -107,7 +107,7 @@ const checkWinner = () => {
     }
 
     if (checkTie()) {
-        // if (soundToggle.checked) sadSound.play();
+        if (soundToggle.checked) sadSound.play();
         ties++;
         tieScore.textContent = ties;
         // msg.innerText = "It's a Draw!";
