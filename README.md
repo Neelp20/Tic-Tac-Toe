@@ -2,7 +2,7 @@
 
 Tic Tac Toe is a Javascript game built to allow users to play offline(two players) for fun. It was designed to be simple and entertaining for two players.
 
-<!-- ![Mock Up]() -->
+![Mock Up](/docs/readme-images/mockup.png)
 
 [Tic Tac Toe Live Link](https://neelp20.github.io/Tic-Tac-Toe/)
 
@@ -97,7 +97,7 @@ In this game with nine boxes, there are eight winning conditions.
 
 - Game Page
 
-![Game page wireframe]()
+![Game page wireframe](/docs/wireframes/home-wireframes.png)
 
 - 404 Page
 
@@ -230,7 +230,8 @@ The project will now have been cloned on your local machine for use.
 
 ## Credits
 
-* [For Confetti](https://www.npmjs.com/package/js-confetti).
+* [For Confetti](https://www.npmjs.com/package/js-confetti)
+  * [Youtube Channel](iEatWebsites)
 * Website logo was downloaded from google.
 * My Mentor Gareth McGirr for his guidance and support throughout my project.
 
