@@ -97,7 +97,7 @@ In this game with nine boxes, there are eight winning conditions.
 
 - Game Page
 
-![Game page wireframe]()
+![Game page wireframe](/docs/wireframes/gamepage-wireframe.png)
 
 - 404 Page
 
