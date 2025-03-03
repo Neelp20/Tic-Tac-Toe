@@ -162,12 +162,6 @@ label {
     font-weight: bold;
 }
 
-#msg {
-    color: rgb(221, 14, 14);
-    font-size: 3vmin;
-    font-weight: bold;
-}
-
 .hide {
     display: none;
 }

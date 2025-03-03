@@ -1,5 +1,4 @@
-let winContainer = document.querySelector(".win-container");
-let msg = document.querySelector("#msg");
+let hideBtn = document.querySelector(".hide-btn");
 let newGameBtn = document.querySelector("#newGame-btn");
 let scoreBoard = document.querySelector(".score-board");
 let playerXScore = document.querySelector("#playerX");
@@ -10,10 +9,9 @@ let soundToggle = document.getElementById('sound-toggle');
 let moveSound = document.getElementById('move-sound');
 let sadSound = document.getElementById('sad-sound');
 let resetBtn = document.getElementById('reset-btn');
-// let canvas = document.querySelector('#confetti');
 const jsConfetti = new JSConfetti();
 
-let turnO = true; //playerX
+let turnO = true; 
 let scoreX = 0;
 let scoreO = 0;
 let ties = 0;
@@ -33,8 +31,7 @@ const winPatterns = [
 const resetGame = () => {
     turnO = true;
     enableBoxes();
-    winContainer.classList.add("hide");
-    // scoreBoard.classList.add("hide");
+    hideBtn.classList.add("hide");
 }
 
 boxes.forEach((box) =>{
@@ -76,13 +73,12 @@ const showWinner = (winner) => {
         playerOScore.textContent = scoreO;
 
     }
-    // msg.innerText = `Winner is ${winner}`;
-    winContainer.classList.remove("hide");
-    // scoreBoard.classList.remove("hide")
+    
+    hideBtn.classList.remove("hide");
+    
     disableBoxes();
     // confetti
     jsConfetti.addConfetti()
-    // alert("game over");
     setTimeout(() => {
         alert(`Congratulations, Winner is ${winner}`);
     },1000)   
@@ -110,12 +106,12 @@ const checkWinner = () => {
         if (soundToggle.checked) sadSound.play();
         ties++;
         tieScore.textContent = ties;
-        // msg.innerText = "It's a Draw!";
+        
         setTimeout(() => {
             alert("It's a Draw!");
         },1000)
-        winContainer.classList.remove("hide");
-        // scoreBoard.classList.remove("hide");
+        hideBtn.classList.remove("hide");
+    
         disableBoxes();
     }
 };
