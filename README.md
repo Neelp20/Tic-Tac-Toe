@@ -177,18 +177,18 @@ All messages were displayed(alert) as expected.
 <!-- **Validator Testing**
 
 - HTML
- - [W3C validator](https://validator.w3.org)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Home Page]()
+![Home Page](/docs/readme-images/home-validator.png)
 
 ![Game Page]()
 
 ![404 Page]()
 
 - CSS
- - [Jigsaw validator]()
+ - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results]()
+![CSS Validator Results](/docs/readme-images/cssvalidator-screenshot.png)
 
 - Javascript
  - [Jshint validator]()
