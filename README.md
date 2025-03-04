@@ -141,7 +141,7 @@ In this game with nine boxes, there are eight winning conditions.
 
 ### Responsiveness
 
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html).
 
 Steps to test:
 
@@ -154,6 +154,7 @@ Steps to test:
 Expected:
 
 Website behaved as expected.
+No elements overlap.
 
 Website was also opened on the following devices and no responsive issues were seen:
 
@@ -161,6 +162,29 @@ Website was also opened on the following devices and no responsive issues were s
 - pixel 7
 - Galaxy Z Fold 5
 - Surface pro 7
+
+### Accessibility
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- Aria properties have been implemented correctly
+- HTML page lang attribute has been set
+- WCAG 2.1 Coding best practices being followed
+
+Manual tests were also performed to ensure the website was accessible
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load    |
+| --------------- | --------------- |
+| Home            | index.html      |
+| Start the game  | game.html       |
 
 
 
