@@ -6,7 +6,7 @@ let tieScore = document.querySelector("#tie");
 let boxes = document.querySelectorAll(".box");
 let soundToggle = document.getElementById('sound-toggle');
 let moveSound = document.getElementById('move-sound');
-let sadSound = document.getElementById('sad-sound');
+
 let resetBtn = document.getElementById('reset-btn');
 const jsConfetti = new JSConfetti();
 
@@ -102,7 +102,7 @@ const checkWinner = () => {
     }
 
     if (checkTie()) {
-        if (soundToggle.checked) sadSound.play();
+        
         ties++;
         tieScore.textContent = ties;
         
