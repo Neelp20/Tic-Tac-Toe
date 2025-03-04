@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-Tic Tac Toe is a Javascript game built to allow users to play offline(two players) for fun. It was designed to be simple and entertaining for two players.
+Tic Tac Toe is a Javascript game built to allow users to play (two players) for fun. It was designed to be simple and entertaining for two players.
 
 ![Mock Up](/docs/readme-images/mockup.png)
 
@@ -30,23 +30,28 @@ Tic Tac Toe is a Javascript game built to allow users to play offline(two player
    * This will allow the user to start the game after they have read the instructions to play.
 
 ![Game Start Button](/docs/readme-images/start-game.png)
+
 * Game Page
 
 ![Game Page](/docs/readme-images/gamepage-screenshot.png)
 * Navbar
-   * Contains link to the Instruction page and will be responsive on all devices.
+   * Contains tic tac toe logo on the left side of the page.
+   * On the right side, contains link to the Instruction page and will be responsive on all devices.
 
 ![Navbar](/docs/readme-images/nav-screenshot.png)
 
 
 * Scoreboard
-   * Above the game board, scoreboard will be displayed to show the score/draw. It will be hidden and pop up once the player gets three in a row or draw.
-   * Contains "New Game" button for the user to continue the game.
+   * Above the game board, scoreboard will be displayed to show the score/draw. It will be updated once the player gets three in a row or a draw.
+   
+   
+   
 
 ![Scoreboard](/docs/readme-images/scoreboard-screenshot.png)
 * Game Board
    * A nine boxes will be blank when the page is loaded.
    * User will be able to click on them to play the game.
+   * A "Sound" can be turned on/off while playing the game.
 
 ![Gameboard](/docs/readme-images/gameboard-screenshot.png)
 * Reset Game Button
@@ -59,10 +64,12 @@ Tic Tac Toe is a Javascript game built to allow users to play offline(two player
 ![New Game](/docs/readme-images/newgame-screenshot.png)
 
 ## The Game
- * The game starts with blank boxes, and always player X begins the game.
- * Next is player O's turn.
+ * The game starts with blank boxes, and always player O begins the game.
+ * Next is player X's turn.
  * Once the boxes are clicked, can not be changed back.
  * When someone gets three in a row, the board will be locked until "Reset Game" or "New Game" is clicked.
+ * When all 9 squares are filled and neither player has three in a row, the game is a draw.
+ * Messages indicating a win or a draw will appear via an "Alert".
 
  ### Winning Conditions
 In this game with nine boxes, there are eight winning conditions.
@@ -76,12 +83,16 @@ In this game with nine boxes, there are eight winning conditions.
 * [ 6, 7, 8 ]
 
 ### Example of three scenarios
-* When player X wins the game.
 
-![Player X is winner](/docs/readme-images/winnerX-screenshot.png)
+
 * When player O wins the game.
 
 ![Player O wins is winner](/docs/readme-images/winnerO-screenshot.png)
+
+* When player X wins the game.
+
+![Player X is winner](/docs/readme-images/winnerX-screenshot.png)
+
 * When its a Draw.
 
 ![It's a draw](/docs/readme-images/draw-screenshot.png)
@@ -123,6 +134,7 @@ In this game with nine boxes, there are eight winning conditions.
   - Wireframes were craeted using balsamiq from https://balsamiq.com/wireframes/desktop/#
 - Font Awesome
   - Icon obtained from https://fontawesome.com/ was used for Home icon on Game page header.
+
   
 
 ## Testing
@@ -148,18 +160,19 @@ Website was also opened on the following devices and no responsive issues were s
 - iphone SE
 - pixel 7
 - Galaxy Z Fold 5
+- Surface pro 7
 
 
 
 **Game Board**
 
-Testing was done to ensure the correct messages were displayed at the appropriate time by playing the game. The following messages are displayed:
+Testing was done to ensure the correct messages were displayed at the appropriate time by playing the game. The following messages are displayed(alert):
 
 * Congratulations, Winner is O.
 * Congratulations, Winner is X.
 * It's a draw.
 
-All messages were displayed as expected.
+All messages were displayed(alert) as expected.
 
 <!-- **Validator Testing**
 
