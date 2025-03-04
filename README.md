@@ -174,16 +174,16 @@ Testing was done to ensure the correct messages were displayed at the appropriat
 
 All messages were displayed(alert) as expected.
 
-<!-- **Validator Testing**
+**Validator Testing**
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
 ![Home Page](/docs/readme-images/home-validator.png)
 
-![Game Page]()
+![Game Page](/docs/readme-images/game-validator.png)
 
-![404 Page]()
+![404 Page](/docs/readme-images/404-validator.png)
 
 - CSS
  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
@@ -191,9 +191,11 @@ All messages were displayed(alert) as expected.
 ![CSS Validator Results](/docs/readme-images/cssvalidator-screenshot.png)
 
 - Javascript
- - [Jshint validator]()
+ - No errors were found when passing through the [Jshint validator](https://jshint.com)
+ - A warning appeared for one variable as an undefined variable.
+ - A const/esversion warnings, Couldn't find a way to silence them since its very common in jshint.
 
-![Javascript Validator Results]() -->
+![Javascript Validator Results](/docs/readme-images/javascript-validator.png)
 
 **Lighthouse Report**
 

@@ -15,7 +15,6 @@ let scoreX = 0;
 let scoreO = 0;
 let ties = 0;
 
-
 const winPatterns = [
     [0, 1, 2],
     [0, 3, 6],
