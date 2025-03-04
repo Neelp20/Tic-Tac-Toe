@@ -53,7 +53,7 @@ Tic Tac Toe is a Javascript game built to allow users to play (two players) for 
    * User will be able to click on them to play the game.
    * A "Sound" can be turned on/off while playing the game.
 
-![Gameboard](/docs/readme-images/gameboard-screenshot.png)
+![Gameboard](/docs/readme-images/gamepage-screenshot.png)
 * Reset Game Button
    * "Reset Game" will reset the game board and score board.
    
@@ -174,6 +174,18 @@ Testing was focused to ensure the following criteria were met:
 - Aria properties have been implemented correctly
 - HTML page lang attribute has been set
 - WCAG 2.1 Coding best practices being followed
+
+- Home Page
+
+![Home page WAVE accessibility Report](/docs/readme-images/home-wave.png)
+
+- Game Page
+
+![Game page WAVE accessibility Report](/docs/readme-images/game-wave.png)
+
+- 404 Page
+
+![404 page WAVE accessibility Report](/docs/readme-images/404-wave.png)
 
 Manual tests were also performed to ensure the website was accessible
 
