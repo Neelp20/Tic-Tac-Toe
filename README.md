@@ -33,7 +33,6 @@ Tic Tac Toe is a Javascript game built to allow users to play (two players) for 
 
 * Game Page
 
-![Game Page](/docs/readme-images/gamepage-screenshot.png)
 * Navbar
    * Contains tic tac toe logo on the left side of the page.
    * On the right side, contains link to the Instruction page and will be responsive on all devices.
@@ -44,9 +43,6 @@ Tic Tac Toe is a Javascript game built to allow users to play (two players) for 
 * Scoreboard
    * Above the game board, scoreboard will be displayed to show the score/draw. It will be updated once the player gets three in a row or a draw.
    
-   
-   
-
 ![Scoreboard](/docs/readme-images/scoreboard-screenshot.png)
 * Game Board
    * A nine boxes will be blank when the page is loaded.
@@ -284,6 +280,7 @@ The project will now have been cloned on your local machine for use.
 * [For Confetti](https://www.npmjs.com/package/js-confetti)
   * [Youtube Channel](iEatWebsites)
 * Website logo was downloaded from google.
+* [W3School](w3schools.com) for Set Timeout in javascript.
 * My Mentor Gareth McGirr for his guidance and support throughout my project.
 
 

@@ -6,7 +6,6 @@ let tieScore = document.querySelector("#tie");
 let boxes = document.querySelectorAll(".box");
 let soundToggle = document.getElementById('sound-toggle');
 let moveSound = document.getElementById('move-sound');
-
 let resetBtn = document.getElementById('reset-btn');
 const jsConfetti = new JSConfetti();
 
